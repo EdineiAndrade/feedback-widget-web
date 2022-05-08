@@ -33,9 +33,9 @@ export function FeedbackContentStep({
     
     return(
         <>
-            <header>
+            <header className="mx-8z">
 
-                <button type="button" className="top-5 lef-5 absolute flex items-center" onClick={onFeedbackRestartRequested}>
+                <button type="button" className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100 transition-colors" onClick={onFeedbackRestartRequested}>
                     <ArrowLeft weight="bold" className="w-4 h-4"/>
                 </button>
                     <span className='text-xl leading-6 flex items-center gap-2 '>
